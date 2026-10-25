@@ -1,0 +1,89 @@
+{
+  "project_name": "Avni Enterprises Landing Page",
+  "app_type": "landing_page",
+  "theme": "Dark and Luxurious",
+  "brand_identity": {
+    "company_name": "Avni Enterprises",
+    "established": 2022,
+    "headquarters": "New Delhi / NCR, India",
+    "tagline": "Enterprise Facility Management & Administrative Infrastructure",
+    "logo_spec": {
+      "square_bg": "#F5B34A",
+      "letters": "AE",
+      "letters_color": "#1F3A6D",
+      "wordmark": "Avni Enterprises",
+      "wordmark_color": "#FFFFFF",
+      "accent": "#F5B34A"
+    },
+    "key_differentiator": "Fixed Monthly Charge Single-Window AMC Model (Zero Fragmented Vendors)"
+  },
+  "colors": {
+    "background_main": "#0B0F17",
+    "background_secondary": "#111827",
+    "card_bg": "rgba(17, 24, 39, 0.7)",
+    "card_border": "rgba(245, 179, 74, 0.2)",
+    "card_border_hover": "rgba(245, 179, 74, 0.6)",
+    "primary_gold": "#F5B34A",
+    "gold_glow": "rgba(245, 179, 74, 0.3)",
+    "brand_navy": "#1F3A6D",
+    "navy_light": "#2A4B8C",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "text_muted": "#64748B",
+    "gradient_hero": "linear-gradient(135deg, rgba(31,58,109,0.3) 0%, rgba(11,15,23,0.95) 70%)"
+  },
+  "typography": {
+    "headline_font": "Outfit, Clash Display, sans-serif",
+    "body_font": "Plus Jakarta Sans, Inter, sans-serif",
+    "hero_h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none",
+    "section_h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+    "card_title": "text-xl font-semibold tracking-wide",
+    "eyebrow_label": "text-xs font-semibold uppercase tracking-[0.25em] text-[#F5B34A]"
+  },
+  "layout_and_structure": {
+    "max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing_section": "py-20 lg:py-32",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "header_style": "fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[#0B0F17]/80 border-b border-white/10"
+  },
+  "key_sections": [
+    {
+      "section_id": "hero",
+      "name": "Kinetic Hero with Masked Line Reveal",
+      "components": [
+        "Brand Logo Badge with Amber-Gold Accent",
+        "Kinetic Line-by-Line Staggered Text Reveal (Framer Motion)",
+        "Primary CTA: 'Request Enterprise AMC Quote'",
+        "Secondary CTA: 'Explore Single-Window Model'",
+        "Subtle Parallax High-End Commercial Architecture Hero Background Image"
+      ]
+    },
+    { section_id: "clients_marquee", name: "Slow Editorial Marquee", clients: ["Sobha Limited", "Larsen & Toubro", "Ashoka University", "DLF Corporate Park", "Max Healthcare", "Bharti Realty"] },
+    { section_id: "stats", name: "Enterprise Metrics & SLA Highlights", stats: ["2022 Established", "100% AMC SLA Compliance", "500+ Vetted Deployed Staff", "1.2M+ Sq.Ft Managed"] },
+    { section_id: "services_bento", name: "Services Bento Grid Mode A", services: ["Housekeeping & Deep Hygiene", "Pantry & Hospitality Management", "Office Stationery & Consumables Supply", "Post-Construction Deep Cleaning", "Facility Manpower Deputation", "Executive Guest House AMC"] },
+    { section_id: "amc_model", name: "Single-Window AMC Cost Model & Interactive Calculator", features: ["Single Invoice", "Dedicated Site Manager", "100% SLA Guarantee", "Customizable Monthly Estimate Calculator"] },
+    { section_id: "testimonials", name: "Enterprise Case Studies & Client Feedback", items: ["Sobha Limited Residential & Commercial AMC", "L&T Infrastructure Facility Operations", "Ashoka University Campus Housekeeping"] },
+    { section_id: "enquiry_form", name: "Dark Luxury Corporate Enquiry Modal / Form", features: ["Form Validation", "Simulated Direct Email Alert to Owner", "Success Toast Notification (Sonner)", "Zero WhatsApp button (per specification)"] },
+    { section_id: "footer", name: "Executive Footer", features: ["Company Profile Details", "Delhi Headquarters Address", "Direct Phone & Corporate Email", "AE Logo Branding", "Copyright & Legal Links"] }
+  ],
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1710956394109-aaa3710e3a63?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "lobby_interior": "https://images.unsplash.com/photo-1587702068694-a909ef4aa346?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "conference_hall": "https://images.unsplash.com/photo-1693625700727-b548ca8f5679?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "executive_lounge": "https://images.pexels.com/photos/29074516/pexels-photo-29074516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "architecture_glass": "https://images.pexels.com/photos/14408745/pexels-photo-14408745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "instructions_to_main_agent": [
+    "Ensure the brand logo strictly represents: Orange-yellow square (~#F5B34A) with navy blue (~#1F3A6D) letters 'AE' and dark blue or white text 'Avni Enterprises'.",
+    "Strictly DO NOT include any WhatsApp floating button or WhatsApp CTA.",
+    "Form submissions should validate inputs, save enquiry locally, and trigger a email simulation alert to the owner with toast notification via Sonner.",
+    "Ensure all interactive elements have data-testid attributes for testing.",
+    "Use Framer Motion for line-by-line kinetic hero entrance and Lenis or smooth scrolling effects.",
+    "Use Lucide-react or Phosphor icons for clean technical presentation."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Do not use generic centered layouts or plain gradients. Build multi-layered card components with subtle 1px border highlights.",
+    "Hover states must include explicit text color and glowing ambient border changes.",
+    "Ensure responsiveness on mobile viewports with tight mobile navigation drawer and well-spaced grid cards."
+  ]
+}
